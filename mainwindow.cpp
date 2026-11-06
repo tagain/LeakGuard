@@ -18,3 +18,15 @@ void MainWindow::on_leakSearchBtn_clicked()
 
 }
 
+
+void MainWindow::on_referenceMaterialsBtn_clicked()
+{
+
+}
+
+
+void MainWindow::on_attackSimulationBtn_clicked()
+{
+
+}
+

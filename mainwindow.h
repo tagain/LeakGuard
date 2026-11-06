@@ -17,6 +17,13 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow() override;
 
+private slots:
+    void on_leakSearchBtn_clicked();
+
+    void on_referenceMaterialsBtn_clicked();
+
+    void on_attackSimulationBtn_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
