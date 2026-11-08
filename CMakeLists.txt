@@ -15,6 +15,7 @@ qt_add_executable(LeakGuard
     AttackSimulation/attacksimulationwindow.h AttackSimulation/attacksimulationwindow.cpp AttackSimulation/attacksimulationwindow.ui
     AttackSimulation/attacksimulationwindow.h AttackSimulation/attacksimulationwindow.cpp AttackSimulation/attacksimulationwindow.ui
     ReferenceMaterials/referencematerialswindow.h ReferenceMaterials/referencematerialswindow.cpp ReferenceMaterials/referencematerialswindow.ui
+    LeakSearch/leaksearchwindow.h LeakSearch/leaksearchwindow.cpp LeakSearch/leaksearchwindow.ui
 )
 
 target_link_libraries(LeakGuard

@@ -11,6 +11,7 @@ QT_END_NAMESPACE
 
 class AttackSimulationWindow;
 class ReferenceMaterialsWindow;
+class LeakSearchWindow;
 
 class MainWindow : public QMainWindow
 {
@@ -31,6 +32,6 @@ private:
     Ui::MainWindow *ui;
     AttackSimulationWindow* attackSimulationWindow = nullptr;
     ReferenceMaterialsWindow* referenceMaterialsWindow = nullptr;
-
+    LeakSearchWindow* leakSearchWindow = nullptr;
 };
 #endif // MAINWINDOW_H
