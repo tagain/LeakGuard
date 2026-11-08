@@ -9,6 +9,9 @@ class MainWindow;
 }
 QT_END_NAMESPACE
 
+class AttackSimulationWindow;
+class ReferenceMaterialsWindow;
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -26,5 +29,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    AttackSimulationWindow* attackSimulationWindow = nullptr;
+    ReferenceMaterialsWindow* referenceMaterialsWindow = nullptr;
+
 };
 #endif // MAINWINDOW_H
